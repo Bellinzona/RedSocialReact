@@ -1,0 +1,139 @@
+.todo{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+    height: 100vh;
+    background: linear-gradient(#1EA896, #010403);
+}
+
+.Publicacionnn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 670px;
+    border-radius: 16px;
+    background-color: white;
+    height: max-content;
+    position: relative;
+    margin: 50px auto;
+}
+
+.Publicacionnn img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    top: 0;
+    left: 30px;
+    margin: 0 20px;
+
+}
+
+.Publicacionnn .informacionPerfil{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 50px;
+    margin-top: 20px;
+    margin-right: 210px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.Texto{
+    margin: 20px auto;
+    width: 100%;
+}
+
+.Texto img{
+    border-radius: 10px;
+    width: 500px;
+    height: 220px;
+}
+
+.Publicacionnn .Interacciones{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 35px;
+    width: 25%;
+    margin-bottom: 10px;
+    position: relative;
+
+}
+
+.Publicacionnn .Interacciones img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid transparent;
+}
+
+
+.Publicacionnn .comentar:hover{
+    padding: 10px;
+    border: 1px solid rgba(0, 55, 255, 0.564);
+    background-color: rgba(0, 0, 255, 0.319);
+    transition: 2s all;
+}
+
+
+.Publicacionnn .corazon:hover{
+    padding: 10px;
+    border: 1px solid rgba(255, 17, 0, 0.564);
+    background-color: rgba(255, 0, 0, 0.319);
+    transition: 2s all;
+}
+
+
+.comentarPublicacion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 50px;
+    margin: 10px;
+}
+
+.comentarPublicacion input{
+    margin: 0;
+    width: 230px;
+}
+
+.comentarPublicacion button{
+    margin: 4;
+}
+
+.comentarios{
+    display: flex;
+    height: 70px;
+    width: 70%;
+    border: 1px solid rgba(113, 112, 112, 0.399);
+    margin: 20px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.comentarios h5{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.comentarios .comentario{
+    display: flex;
+
+    margin: auto;
+}
+
+.todosComentarios{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.19);
+    margin-top: 25px;
+}

@@ -1,0 +1,77 @@
+.PosteoPage{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+    height: 100vh;
+    background: linear-gradient(#1EA896, #010403);
+}
+
+
+.CrearPublicacion{
+    display: flex;
+    flex-direction: column;
+    margin: 10% auto;
+    width: 700px;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.CrearPublicacion img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    top: 60px;
+    left: 75px;
+    position: relative;
+}
+
+.CrearPublicacion .TextArea{
+    resize: none;
+    margin: 40px 0;
+    width: 80%;
+    height: 150px;
+    margin: 80px auto;
+    margin-bottom: 0px;
+    border: none;
+    font-size: 20px;
+    border: 1px solid rgba(105, 105, 105, 0.268);
+    border-radius: 15px;
+}
+
+.Publicar{
+    width: 80%;
+    margin: 40px auto;
+    background-color: #13a02a;
+}
+
+.CrearPublicacion .TextArea::placeholder {
+    /* Estilos para el placeholder */
+    color: #999; /* Cambia el color del texto del placeholder */
+    font-style: italic; /* Cambia el estilo de fuente del placeholder si lo deseas */
+    text-align: center;
+}
+
+.CrearPublicacion .fotoPublicacion{
+    margin: 8px auto;
+    padding: 10px;
+    height: 50px;
+}
+
+
+
+
+.Cerrar{
+    position: absolute;
+    right: 0;
+    background-color: red;
+    padding: 20px 25px;
+    bottom: 325px;
+    color: white;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+}

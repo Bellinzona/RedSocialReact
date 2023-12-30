@@ -1,0 +1,76 @@
+.RegisterPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#1EA896, #010403);
+}
+
+
+form {
+    text-align: center;
+    color: white;
+    width: 480px;
+    padding: 20px;
+    background-color: #000000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  input {
+    width: 80%;
+    margin: 12px;
+    padding: 10px;
+    background-color: rgb(112, 108, 108);
+    border: 1px solid #ccc;
+    border-style: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: white;
+  }
+  
+  input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Estilo para el placeholder */
+  input::placeholder {
+    color: #999;
+  }
+  
+  /* Estilo para el botón (si decides agregar uno) */
+  button {
+    background-color: #18d31e;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 30px;
+  }
+  
+  button:hover {
+    transition: 1s all;
+    background-color: #45a049;
+  }
+
+
+  @media (max-width: 768px) {
+    form {
+        width: 70%;
+    }
+}
+
+@media (max-width: 480px) {
+    form {
+        width: 80%;
+        padding: 15px;
+    }
+}
