@@ -108,24 +108,27 @@
 
 .comentarios{
     display: flex;
-    height: 70px;
+    max-height: 250px;
     width: 70%;
     border: 1px solid rgba(113, 112, 112, 0.399);
     margin: 20px;
     position: relative;
     border-radius: 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
 }
 
 .comentarios h5{
     position: absolute;
-    bottom: 20px;
+    top: 0;
     left: 20px;
 }
 
 .comentarios .comentario{
     display: flex;
 
-    margin: auto;
+    margin: 50px auto;
 }
 
 .todosComentarios{
