@@ -115,7 +115,7 @@
         background-color: white;
         bottom: 0;
         width: 99.9%;
-        height: 90px;
+        height: 70px;
         z-index: 10;
     }
 
@@ -139,13 +139,15 @@
         width: 80%;
         margin: auto;
         height: 50px;
+
     }
 
     .mobileOption{
         display: flex;
         margin: 0 10px;
-        width: 35px;
-        height: 35px;
+        width: 25px;
+        height: 25px;
+        
     }
 
     .mobileOptionButton button{
