@@ -137,3 +137,139 @@
     border: 1px solid rgba(0, 0, 0, 0.19);
     margin-top: 25px;
 }
+
+@media (max-width: 1040px){
+
+    .Publicacionnn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        width: 60%;
+        border-radius: 16px;
+        background-color: white;
+        height: max-content;
+        position: relative;
+        margin: 50px auto;
+    }
+
+}
+
+@media (max-width: 998px){
+    .Publicacionnn{
+        width: 60%;
+    }
+
+    .Publicacionnn .informacionPerfil{
+        display: flex;
+        align-items: center;
+        width: 400px;
+        height: 50px;
+        margin-top: 20px;
+        margin-right: 20px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .Publicacionnn .informacionPerfil{
+        margin-right: 0px;
+        margin-left: -100px;
+        width: 200px;
+    }
+
+    .comentarios .comentario{
+        margin: 30px auto;
+    }
+
+    .comentarPublicacion{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 300px;
+        
+    }
+
+    .comentarPublicacion input{
+        width: 110px;
+        margin: auto;
+    }
+
+    .comentarPublicacion button{
+        width: 80px;
+        
+    }
+
+    
+}
+
+@media (max-width: 430px){
+    .Publicacionnn{
+        width: 80%;
+        margin: 50px auto;
+    }
+    
+    .Publicacionnn .informacionPerfil{
+        margin-right: 0px;
+        margin-left: -90px;
+    }
+
+    .comentarios .comentario{
+        margin: 30px auto;
+    }
+
+    .comentarPublicacion{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 300px;
+        
+    }
+
+    .comentarPublicacion input{
+        width: 110px;
+        margin: auto;
+    }
+
+    .comentarPublicacion button{
+        width: 80px;
+        
+    }
+
+}
+
+
+@media (max-width: 375px){
+    .Publicacionnn{
+        width: 80%;
+        margin: 50px auto;
+    }
+    
+    .Publicacionnn .informacionPerfil{
+        margin-right: 0px;
+        margin-left: -90px;
+        width: 200px;
+    }
+
+    .comentarios .comentario{
+        margin: 30px auto;
+
+    }
+
+    .comentarPublicacion{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .comentarPublicacion input{
+        width: 70px;
+        font-size: 10px;
+    }
+
+    .comentarPublicacion button{
+        width: 80px;
+        font-size: 10px;
+    }
+
+}
