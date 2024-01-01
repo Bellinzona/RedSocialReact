@@ -89,7 +89,7 @@ export const Posteo = () => {
 
         <input type="file" className='fotoPublicacion' onChange={handleFotoChange} />
 
-        <button className='Publicar' onClick={handlePublicar}>Publicar</button>
+        <button className='PublicarPost' onClick={handlePublicar}>Publicar</button>
       </div>
     </div>
   );

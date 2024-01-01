@@ -42,10 +42,14 @@
     border-radius: 15px;
 }
 
-.Publicar{
+.PublicarPost{
     width: 80%;
     margin: 40px auto;
     background-color: #13a02a;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 
 .CrearPublicacion .TextArea::placeholder {
@@ -74,4 +78,42 @@
     border-radius: 5px;
     font-weight: 700;
     cursor: pointer;
+}
+
+@media (max-width: 768px){
+    .CrearPublicacion{
+        display: flex;
+        flex-direction: column;
+        margin: 20% auto;
+        width: 500px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        position: relative;
+        overflow: hidden;
+    }
+
+}
+
+@media (max-width: 425px){
+    .CrearPublicacion{
+        display: flex;
+        flex-direction: column;
+        margin: 20% auto;
+        width: 85%;
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .CrearPublicacion img{
+        width: 45px;
+        height: 45px;
+        border-radius: 100%;
+        top: 60px;
+        left: 55px;
+        position: relative;
+    }
+
+    
 }

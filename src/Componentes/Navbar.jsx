@@ -86,7 +86,7 @@ export const Navbar = () => {
                 </div>
 
                 <div className="mobileOptionButton">
-                    <button className='+'>+</button>
+                    <Link to={"/CrearPublicacion"}><button className='+'>+</button> </Link>
                 </div>
 
                 <div className="mobileOption">
