@@ -6,7 +6,6 @@ import { PaginaPrincipal } from '../Paginas/PaginaPrincipal/PaginaPrincipal'
 import { Posteo } from '../Paginas/Posteo/Posteo'
 import { Publicacion } from '../Paginas/Publicacion/Publicacion'
 import { BusquedaUsuario } from '../Paginas/BusquedaUsuario/BusquedaUsuario'
-
 export const Rutas = () => {
   return (
     <div>
