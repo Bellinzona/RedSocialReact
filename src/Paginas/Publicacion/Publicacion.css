@@ -3,7 +3,6 @@
     flex-direction: row;
     width: 100%;
     text-align: center;
-    height: 100vh;
     background: linear-gradient(#1EA896, #010403);
 }
 
@@ -114,7 +113,6 @@
     margin: 20px;
     position: relative;
     border-radius: 10px;
-    overflow-y: scroll;
     overflow-x: hidden;
 
 }
