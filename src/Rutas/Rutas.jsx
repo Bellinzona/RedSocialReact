@@ -5,7 +5,7 @@ import { Registrarse } from '../Paginas/Registrarse/Registrarse'
 import { PaginaPrincipal } from '../Paginas/PaginaPrincipal/PaginaPrincipal'
 import { Posteo } from '../Paginas/Posteo/Posteo'
 import { Publicacion } from '../Paginas/Publicacion/Publicacion'
-import { BusquedaUsuario } from '../Paginas/BusquedaUsuario/BusquedaUsuario'
+import { BusquedaUsuario } from '../Paginas/busquedaUsuarios/BusquedaUsuario'
 export const Rutas = () => {
   return (
     <div>
