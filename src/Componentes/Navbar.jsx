@@ -35,8 +35,16 @@ export const Navbar = () => {
 
                 <div className="opcion">
 
+                    <Link to={"/PaginaPrincipal"} className='pa'>
+
+                        <div className="estilosOpcion">
+
                     <img src={inicioImagen} alt="" />
                     <p>Inicio</p>
+
+                    </div>
+
+                    </Link>
 
 
 
@@ -44,8 +52,21 @@ export const Navbar = () => {
 
                 <div className="opcion">
 
+                    <Link to={"/BusquedaUsuario"} className='pa'>
+
+                    <div className="estilosOpcion">
+
+
+
+
+                    
+
                     <img src={explorarImagen} alt="" />
                     <p>Explorar</p>
+
+                    </div>
+
+                    </Link>
 
 
 
@@ -77,13 +98,18 @@ export const Navbar = () => {
 
             <div className="mobileOptions">
                 
-                <div className="mobileOption">
+                
+                
+                    <Link to={"/PaginaPrincipal"} className='mobileOption'>
                     <img src={inicioImagen} alt="" />
-                </div>
+                    </Link>
+                
 
-                <div className="mobileOption">
+              
+                    <Link to={"/BusquedaUsuario"} className='mobileOption'>
                     <img src={explorarImagen} alt="" />
-                </div>
+                    </Link>
+                
 
                 <div className="mobileOptionButton">
                     <Link to={"/CrearPublicacion"}><button className='+'>+</button> </Link>

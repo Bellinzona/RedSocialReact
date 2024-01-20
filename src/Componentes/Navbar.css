@@ -66,6 +66,16 @@
     width: 90%;
 }
 
+.estilosOpcion{
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.pa{
+    text-decoration: none;
+}
+
 .opcion{
     display: flex;
     align-items: center;
